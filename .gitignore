@@ -1,4 +1,4 @@
-anaconda_projects
+anaconda_projects/*
 car_sales_data.csv
 .DS_Store
 .ipynb_checkpoints/
