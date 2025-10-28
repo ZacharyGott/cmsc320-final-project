@@ -1,6 +1,6 @@
 **Getting Started**
 
-1) Download the following as a zip: https://www.kaggle.com/datasets/minahilfatima12328/car-sales-info?resource=download
+1) Download the following as a zip: https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
 
 2) Unzip it into this directory
 
