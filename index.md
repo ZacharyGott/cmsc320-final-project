@@ -1,7 +1,7 @@
 # Used Vehicle Sales Price Prediction  
 _Final Project – CMSC320 (Fall 2025)_  
 <br>
-Zachary Gottlieb, Kehan Bhati, Joseph Jenkins, Jack Perlman, Simon Benarroch, Aiden Ritta
+Zachary Gottlieb, Kehan Bhati, Joseph Jenkins, Jack Perlman, Simon Benarroch, Aidan Ritta
 
 ## Contributions
 Zachary:
@@ -35,3 +35,9 @@ Aiden:
 ## Visualization
 
 ## Insights and Conclusion
+&nbsp;&nbsp;&nbsp;&nbsp;Throughout this tutorial, we walked through some stages of data science for creating a machine learning model that accurately predicts the price of a used car. To build the model, we had to learn what features drive the selling prices of used cars. We expectedly proved that the vehicle's age and mileage are inversely correlated with its selling price. In addition to age and mileage, we found that the Market Maker Valuation (MMR) is the single strongest predictor of the car's final sell price. Essentially, the market estimate alone is very accurate, but additional factors like the condition and its age can also affect the final price.
+
+&nbsp;&nbsp;&nbsp;&nbsp;However, the results go beyond simple correlation. We addressed potential overfitting by comparing a Linear Regression model with a Ridge Regression model. The results showed that while a simple linear model captured the bulk of the variance ($$R^2$$ score), the Ridge Regression model predicted the test data marginally better, giving a more robust model that is very generalizable to new data.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Ultimately, this project shows that while used car pricing can seem very volatile, it mostly follows predictable patterns that can be effectively modeled using standard machine learning techniques. The resulting model serves as a viable tool for verifying fair market values, helping reduce the pricing uncertainty for both buyers and sellers.
+
